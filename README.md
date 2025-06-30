@@ -84,11 +84,10 @@ Key features:
 * **Node.js**
 * **Express.js**
 * **JWT** for Authentication
-* **MongoDB / PostgreSQL** (DB Layer, depending on service)
-* **Redis / RabbitMQ** for Queue Management
+* **MySql** 
 * **Nodemailer** for Emails
-* **Cron Jobs** using `node-cron` or `agenda`
-* **Docker** for containerization (optional, but recommended)
+* **Cron Jobs** using `node-cron`
+* **Docker** for containerization
 * **Postman** Collection for API testing
 
 ---
@@ -126,7 +125,7 @@ Key features:
 
    ```bash
    git clone https://github.com/Suvendu-Sekhar-Patra/Airline-Ticket-Booking-System.git
-   cd airline-booking-backend
+   cd Airline-Ticket-Booking-System
    ```
 
 2. Set up `.env` for each service with required configurations
