@@ -64,7 +64,7 @@ Key features:
 
 * Sends **ticket confirmation** emails
 * **Queue-based email processing** to ensure smooth and non-blocking operations
-* Utilizes a message queue (e.g., RabbitMQ / Redis Queue) to decouple from other services
+* Utilizes message queue to decouple from other services
 
 ---
 
