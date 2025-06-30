@@ -13,7 +13,7 @@ async function sendEmail(mailFrom, mailTo, subject, text) {
         });
         return response;
     } catch(error) {
-        console.log(error);
+        // console.log(error);
         throw error;
     }
 }
@@ -23,7 +23,7 @@ async function createTicket(data) {
         const response = await ticketRepo.create(data);
         return response;
     } catch(error) {
-        console.log(error);
+        // console.log(error);
         throw error;
     }
 }
@@ -33,7 +33,7 @@ async function getPendingEmails() {
         const response = await ticketRepo.getPendingTickets();
         return response;
     } catch(error) {
-        console.log(error);
+        // console.log(error);
         throw error;
     }
 }
